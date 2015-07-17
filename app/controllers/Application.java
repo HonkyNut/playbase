@@ -13,7 +13,7 @@ public class Application extends Controller {
         return ok(input.toUpperCase());
     }
 
-    public static Result displayMessage(Strinf message) {
+    public static Result displayMessage(String message) {
     	return ok(views.html.displayMessage.render(message));
     }
 
