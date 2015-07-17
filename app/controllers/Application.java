@@ -13,4 +13,9 @@ public class Application extends Controller {
         return ok(input.toUpperCase());
     }
 
+    public static Result displayMessage(Strinf message) {
+    	return ok(views.html.displayMessage.render(message));
+    }
+
+
 }
